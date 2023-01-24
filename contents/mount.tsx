@@ -10,7 +10,7 @@ export const getOverlayAnchor: PlasmoGetOverlayAnchor = async () => {
   return el
 }
 
-const PlasmoPricingExtra = () => {
+const PlasmoAnchor = () => {
   return (
     <span
       style={{
@@ -23,4 +23,4 @@ const PlasmoPricingExtra = () => {
   )
 }
 
-export default PlasmoPricingExtra
+export default PlasmoAnchor
